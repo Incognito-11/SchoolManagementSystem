@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Principal Rao"
+    },
+    {
+      "id": 2,
+      "username": "teacher1",
+      "password": "teach123",
+      "role": "user",
+      "name": "Ms. Sharma"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Amit",
+      "lastName": "Kumar",
+      "grade": "8A",
+      "feesPaid": 5000,
+      "totalFees": 8000
+    },
+    {
+      "id": 2,
+      "firstName": "Neha",
+      "lastName": "Singh",
+      "grade": "9B",
+      "feesPaid": 3000,
+      "totalFees": 8000
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Ms. Sharma",
+      "subject": "Math",
+      "salary": 40000,
+      "paid": true
+    }
+  ],
+  "fees": [{ "id": 1, "studentId": 1, "amount": 5000, "date": "2025-09-01" }],
+  "transactions": [
+    {
+      "id": 1,
+      "type": "income",
+      "category": "Fees",
+      "amount": 5000,
+      "date": "2025-09-01"
+    },
+    {
+      "id": 2,
+      "type": "expense",
+      "category": "Salary",
+      "amount": 20000,
+      "date": "2025-09-05"
+    }
+  ]
+}
